@@ -10,14 +10,15 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar : AppBar(
-        title: Text("My App"),
+        title: Text("Gengar's App"),
         centerTitle: true,
         backgroundColor: Colors.blueGrey[900],
       ),
       body: Center(
         child: Image(
-          image: AssetImage("assets/Gengar.png"),
+          image: AssetImage('gengar.png'),
         ),
       ),
       floatingActionButton: FloatingActionButton(
