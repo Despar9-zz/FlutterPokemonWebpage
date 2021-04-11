@@ -16,14 +16,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.blueGrey[900],
       ),
       body: Center(
-        child: Text(
-          "Hallo World",
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            color: Colors.grey[1000],
-            fontFamily: "SourceCodePro",
-          ),
+        child: Image(
+          image: AssetImage("assets/Gengar.png"),
         ),
       ),
       floatingActionButton: FloatingActionButton(
