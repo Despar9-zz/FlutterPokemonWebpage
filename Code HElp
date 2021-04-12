@@ -1,0 +1,33 @@
+        child: Icon(
+          Icons.airport_shuttle,
+          color : Colors.grey, 
+          size: 100.0,
+
+
+         RaisedButton(
+                     onPressed: () {
+                       print("Was ist?");
+                     },
+                     child: Text("Wach Auf!"),
+                     color: Colors.grey,
+                 ),
+
+
+         child: RaisedButton.icon(
+                   onPressed: () {},
+                   icon: Icon(
+                     Icons.mail,
+                   ),
+                   label: Text("Contact Gengar!"),
+                   color: Colors.grey,
+                 ),
+
+         Center(
+                 child: ElevatedButton(
+                   style: ElevatedButton.styleFrom(
+                     primary: Colors.red, // background
+                     onPrimary: Colors.white, // foreground
+                   ),
+                   onPressed: () { },
+                   child: Text('Weck Gengar Auf!'),
+                 )

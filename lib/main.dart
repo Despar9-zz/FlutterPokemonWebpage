@@ -16,11 +16,8 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.blueGrey[900],
       ),
-      body: Center(
-        child: Image(
-          image: AssetImage('gengar.png'),
+      body:
         ),
-      ),
       floatingActionButton: FloatingActionButton(
         child: Text("Click"),
         onPressed: () {},
