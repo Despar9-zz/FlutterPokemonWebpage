@@ -37,3 +37,27 @@
                  margin: EdgeInsets.all(30.0),
                  color: Colors.grey,
                  child: Text("Hello Gengar")
+
+         onPressed: () {
+                   setState(() {
+                     levelcounter += 1;
+                   });
+                 },
+
+         Widget template(){
+             return Card(
+               margin: EdgeInsets.all(20.0),
+                 child: Column(
+                 children: <Widget>[
+                   Text("Hello", style: TextStyle(
+                     fontSize: 18.0,
+                   ),
+                   ),
+                   SizedBox(height: 20.0),
+                   Text("This is a card!", style: TextStyle(
+                     fontSize: 12.0,
+                   ),
+                   ),
+                 ],
+               ),
+             );

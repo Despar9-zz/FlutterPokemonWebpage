@@ -49,6 +49,13 @@ flutter:
     - assets/fire.png
     - assets/gengar.png
     - assets/biggengar.png
+    - assets/mittlegengar.png
+    - assets/pikachu.png
+    - assets/shiggy2.png
+    - assets/glumanda.png
+    - assets/bisasam.png
+    - assets/ShiggyBig.png
+    - assets/bigbisasam.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -62,9 +69,12 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: SourceCodePro
+    - family: sourcecode
       fonts:
-        - asset: fonts/SourceCodePro-SemiBold.ttf
+        - asset: fonts\SourceCodePro-SemiBold.ttf
+    - family: Poppins
+      fonts:
+        - asset: fonts\Poppins-Regular.ttf
 
 
   #
